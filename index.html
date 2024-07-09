@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bottom Drag Sheet | Vue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./bottom_sheet.css">
+
+</head>
+
+<body style="overflow: hidden;" id="body">
+  <!-- partial:index.partial.html -->
+  <div class="wrap" id="app">
+    <bottom-sheet initial="closed" :dismissable="true"></bottom-sheet>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.8/vue.min.js'></script>
+  <script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
+  <script src="./bottom_sheet.js"></script>
+
+</body>
+
+</html>
